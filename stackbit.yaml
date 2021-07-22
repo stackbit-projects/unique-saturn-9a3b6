@@ -1,0 +1,21 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+publishDir: _site
+dataDir: _data
+pagesDir: ''
+models:
+  page:
+    type: page
+    label: Page
+    folder: _pages
+    match: '*'
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: boolean
+        name: include_in_header
+        label: Include In Header
